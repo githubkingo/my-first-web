@@ -6,6 +6,64 @@
   <meta name="author" content="Mr.di">
   <meta name="description" content="忧郁的小弟弟">
  </head>
- <body class="theme-lavendar io-lavendar no-touch loaded" >
- 
- 
+ <body class="theme-lavendar io-lavendar no-touch loaded" data-spy="scroll" data-offset="60" data-target=".nav_holder" id="home" style="overflow-x:hidden;width:100vw;" >
+   <style>
+     .social_icon li a em {
+       background-color: rgba(255,255,255,0.8）；
+     }
+     #header img {
+       width: 100px;
+     }
+     .p-img {
+       top: -20px;
+       margin-bottom: 30px
+      }
+     .animation__play:after, .animation__play:before {
+       width: 70px;
+       height: 70px;
+     }
+     #header {
+       min-height: 900px;
+     }
+     @media screen and (max-width:980px) {
+       .p-img {
+           top: 30px;
+           margin-bottom: 50px;
+       }
+       .grid--6col .grid__item {
+           float: left;
+           margin-right: 80px;
+           margin-bottom: 80px;
+           width: calc((100%-80px*2)/3);
+       }
+      }
+      @media screen and (max-width:780px){
+        .tk_countdown {
+          background: none;
+        }
+        .animation__play:after, .animation__play:before {
+          width: 50px;
+          height: 50px;
+        }
+      }
+      @media screen and (max-width:480px）{
+        .animation__play:after, .animation__play:before {
+          width: 30px;
+          height: 30px;
+        }
+      }
+   </style>
+   <header class="header">
+     <div class="header__content header__content--fluid-width">
+       <div class="head__logo-title">忧郁的小弟弟</div>
+       <nav class="header__menu sticky">
+         <div class="menu-button">
+           ::before
+         </div>
+         <ul class="open" style="display:block;">
+           <li>
+             <a class="selected header-link active" hr
+         
+     
+    
+        
