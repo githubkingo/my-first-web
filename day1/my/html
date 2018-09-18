@@ -60,9 +60,51 @@
          <div class="menu-button">
            ::before
          </div>
-         <ul class="open" style="display:block;">
+         <ul class style="display:none;">
            <li>
-             <a class="selected header-link active" hr
+             <a class="selected header-link active" href="#header">HOME</a>
+           </li>
+           <li class="menu-item-has-chidren">
+             <span class="submenu-button"></span>
+             <a href="#intro" class="header-link">ABOUT</a>
+             <ul class="sub-menu submenu-header-sticky">
+               <li>
+                 <a href="#features" class="header=link">FEATURES</a>
+               </li>
+               <li>
+                 <a href=#hiw" class="header-link">HOW IT WORKS</a>
+               </li>
+               <li>
+                 <a href="#products" class="header-link">PRODUCTS</a>
+               </li>
+               <li>
+                 <a href="#foundation" class="header-link">FOUNDATION</a>
+               </li>
+             </ul>
+           </li>
+           <li>
+             <a href="#tokenSale" class="header-link">TOKEN SALE</a>
+           </li>
+           <li class="header-xs">
+             <a href="#dapp" class="header-link">DAPP</a>
+           </li>
+           <li class="header-xs">
+             <a href="#roadmap" class="header-link">ROADMAP</a>
+           </li>
+           <li class="header-xs">
+             <a href="#team" class="header-link">TEAM</a>
+           </li>
+           <li class="menu-item-has-children">
+             <span class="submenu-button"></span>
+             <a href="#support" class="header-link">SUPPORT</a>
+             <ul class="sub-menu submenu-header-sticky" style="display:none;">
+               <li>
+                <a href="#faq" class="hrader-link">FAQ</a>
+               </li>
+               
+             
+               
+           
          
      
     
