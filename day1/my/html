@@ -101,7 +101,33 @@
                <li>
                 <a href="#faq" class="hrader-link">FAQ</a>
                </li>
-               
+               <li>
+                <a href="#contact" class="header-link">CONTACT US</a>
+               </li>
+               <li>
+                <a href="#emails" class="header-link">EMAILS</a>
+               </li>
+               <li>
+                <a href="#cta" class="header-link">SUBSCRIBE</a>
+               </li>
+              </ul>
+             </li>
+             <li class="header__btn header__btn--login header-xs">
+               <a href="#Whitepaper" class="header-link">White Paper</a>
+             </li>
+             <li class="header__btn header__btn--signup modal-toggle" data-openpopup="signuplogin" data-popup="signup">
+               <a href="#">Try App</a>
+             </li>
+            </ul>
+            ::after
+           </nav>
+          </div>
+         </header>
+         <main class="main oh" style="width:100vw;">
+           <section id="header">
+             <div class="vert-text">
+               <div id="particles">
+                 <canvas class="partic
              
                
            
