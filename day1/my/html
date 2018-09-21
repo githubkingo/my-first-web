@@ -127,7 +127,10 @@
            <section id="header">
              <div class="vert-text">
                <div id="particles">
-                 <canvas class="partic
+                 <canvas class="particles-js-canvas-el" width="0" height="0" style="width:100%; height: 100%;">
+               </div>
+               <div class="p-img">
+                 <img src="" data-original="">
              
                
            
